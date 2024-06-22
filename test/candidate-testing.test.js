@@ -1,4 +1,5 @@
 const solution = require('../candidate-testing');
+const readline = require('readline');
 
 describe("Candidate Testing solution", function() {
 
