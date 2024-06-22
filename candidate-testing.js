@@ -43,7 +43,7 @@ function askQuestions() {
 }
 
 
-function gradeQuiz() {
+function gradeQuiz(candidateAnswers) {
   let grade = 0;
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
   for (let i = 0; i < questions.length; i++) {
@@ -59,7 +59,7 @@ function gradeQuiz() {
   
 
   //TODO 3.2 use this variable to calculate the candidates score.
-  grade =  grade / questions.length * 100
+  grade =  grade / (questions.length) * 100
   console.log("You scored " + grade + "%");
   return grade;
 }
@@ -69,7 +69,7 @@ function runProgram() {
   // TODO 1.1c: Greet candidate using their name //
   console.log("Greetings, " + candidateName + "!" + " Welcome to this quiz.");
   askQuestions();
-  gradeQuiz();
+  gradeQuiz(candidateAnswers);
 }
 
 // start the program to run the single test quiz
