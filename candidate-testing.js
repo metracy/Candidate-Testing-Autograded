@@ -25,7 +25,7 @@ let correctAnswers = [
   "Trajectory",
   "3"
 ];
-let candidateAnswers  =  ['','','','',''];
+let candidateAnswers  =  [];
 
 
 function askForName() {
