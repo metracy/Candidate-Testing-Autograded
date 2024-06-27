@@ -72,9 +72,6 @@ function runProgram() {
   gradeQuiz(candidateAnswers);
 }
 
-// start the program to run the single test quiz
-runProgram()
-
 // ----------- Don't write any code or change any code below this line ---------- //
 module.exports = {
   candidateName: candidateName,
